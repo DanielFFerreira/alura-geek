@@ -20,6 +20,13 @@ body {
   animation-fill-mode: forwards;
 }
 
+body,
+input,
+textarea,
+button {
+  font-family: var(--raleway);
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;

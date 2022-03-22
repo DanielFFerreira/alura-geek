@@ -1,7 +1,11 @@
 .btn {
+  color: var(--blue);
+  background: transparent;
+}
+.btn__login {
   border: 1px solid var(--blue);
-  width: 182px;
-  height: 51px;
-  /* internal spacing */
   padding: 0.75rem 2.97rem;
 }
+
+/* internal spacing */
+padding: 0.75rem 2.97rem;
