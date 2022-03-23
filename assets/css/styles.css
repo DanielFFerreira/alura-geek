@@ -1,6 +1,7 @@
-@import url("./config/variables.css");
-@import url("./base/base.css");
-@import url("./components/button.css");
-@import url("./components/header.css");
-@import url("./layout/layout.css");
-@import url("./components/banner.css");
+@import "./config/variables.css";
+@import "./base/base.css";
+@import "./components/button.css";
+@import "./components/header.css";
+@import "./layout/layout.css";
+@import "./components/products.css";
+@import "./components/banner.css";

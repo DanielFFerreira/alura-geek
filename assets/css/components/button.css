@@ -7,5 +7,12 @@
   padding: 0.75rem 2.97rem;
 }
 
+.btn__produto {
+  font-weight: 700;
+  font-size: .9rem;
+  color: var(--blue);
+  cursor: pointer;
+}
+
 /* internal spacing */
 padding: 0.75rem 2.97rem;
