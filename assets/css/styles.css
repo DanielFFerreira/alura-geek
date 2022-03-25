@@ -3,5 +3,6 @@
 @import "./components/button.css";
 @import "./components/header.css";
 @import "./layout/layout.css";
+@import "./components/breakpoints.css";
 @import "./components/products.css";
 @import "./components/banner.css";

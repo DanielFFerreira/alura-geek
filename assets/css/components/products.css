@@ -4,3 +4,7 @@
   justify-content: space-between;
   padding-bottom: 1rem; /* 16px / 16px = 1rem  */
 }
+
+.products__icon--arrow {
+  width: 12px;
+}
