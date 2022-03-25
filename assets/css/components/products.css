@@ -5,6 +5,27 @@
   padding-bottom: 1rem; /* 16px / 16px = 1rem  */
 }
 
+.products__title {
+  color: var(--black);
+}
+
+.products__title--light {
+  font-weight: 500;
+}
+.products__price--bold {
+  font-weight: 700;
+}
+
+.products__icon {
+  font-weight: 700;
+  color: var(--blue);
+}
+
 .products__icon--arrow {
   width: 12px;
+}
+
+.products__card {
+  display: grid;
+  gap: 8px;
 }
