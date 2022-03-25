@@ -36,8 +36,10 @@ button {
   }
 }
 
-/* section {
-  background-color: var(--black-5);
-} */
+
+img {
+  width: 100%;
+  height: auto;
+}
 
 

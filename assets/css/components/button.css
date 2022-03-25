@@ -1,6 +1,8 @@
 .btn {
-  color: var(--blue);
-  background: transparent;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1rem;
+  padding: 0.75rem 1rem;
 }
 .btn__login {
   border: 1px solid var(--blue);
@@ -14,5 +16,9 @@
   cursor: pointer;
 }
 
-/* internal spacing */
-padding: 0.75rem 2.97rem;
+.btn__console {
+  color: var(--white);
+  background: var(--blue);
+  cursor: pointer;
+}
+
