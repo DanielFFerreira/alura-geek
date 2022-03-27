@@ -8,7 +8,6 @@
   border: 1px solid var(--blue);
   padding: 0.75rem 2.97rem;
 }
-
 .btn__produto {
   font-weight: 700;
   font-size: .9rem;
@@ -16,7 +15,7 @@
   cursor: pointer;
 }
 
-.btn__console {
+.btn__default {
   color: var(--white);
   background: var(--blue);
   cursor: pointer;
