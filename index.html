@@ -62,7 +62,7 @@
         <p class="banner__description">Produtos selecionados com 33% de desconto</p>
         <!----------- BANNER BUTTON ---------->
         <div class="banner__button">
-          <a class="btn btn__console" href="#">Ver Consoles</a>
+          <a class="btn btn__default" href="#">Ver Consoles</a>
         </div>
       </div>
     </section>
@@ -268,17 +268,31 @@
 
         <legend class="contact__form--conosco">Fale Conosco</legend>
       
-        <input type="text" id="name" placeholder="Nome">
+        <input type="text" id="name" placeholder="Nome" class="contact__form--name">
         
-        <textarea id="message" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+        <textarea 
+          id="message" 
+          placeholder="Escreva sua mensagem"
+          class="contact__form--message"
+        ></textarea>
+          
+        <a class="btn btn__default" href="#">Enviar mensagem</a>
 
       </form>
     </section>
 
-
-
-
   </main>
+
+  <!----------- FOOTER ---------->
+  <footer class="footer">
+    <a href="#" target="_blank" aria-labelledby="portfolio">
+      <i class="icon-logo"></i>
+    </a>
+    <p id="portfolio">
+      Desenvolvido por Daniel Freitas Ferreira
+    </p>
+    <p>2022</p>
+  </footer>
 
 
 
