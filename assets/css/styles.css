@@ -5,4 +5,5 @@
 @import "./layout/layout.css";
 @import "./components/breakpoints.css";
 @import "./components/products.css";
+@import "./components/contact.css";
 @import "./components/banner.css";
