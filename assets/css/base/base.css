@@ -4,12 +4,18 @@
   box-sizing: border-box;
   border: none;
   text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
 }
 
 /* Elements */
 html {
   scroll-behavior: smooth;
+}
+
+a {
+  color: var(--black);
+  font-weight: 500;
 }
 
 body {
@@ -27,6 +33,8 @@ button {
   font-family: var(--raleway);
 }
 
+
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
@@ -42,4 +50,9 @@ img {
   height: auto;
 }
 
-
+body,
+input,
+textarea,
+button {
+  font-family: var(--raleway);
+}
