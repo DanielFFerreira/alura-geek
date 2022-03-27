@@ -15,4 +15,9 @@
   /* spacing padding */
   --p-1: 1rem;
 
+  /* spacing margin */
+  --mb-2: 2rem;
+  --mb-1-5: 1.5rem;
+  --mt-1: 1rem;
+
 }
