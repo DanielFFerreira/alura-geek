@@ -1,0 +1,7 @@
+.footer {
+  background-color: var(--white);
+  text-align: center;
+  color: var(--black);
+  transition: 0.3s;
+  padding: 1.6rem;
+}

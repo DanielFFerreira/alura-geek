@@ -25,3 +25,36 @@
 .contact__links--logo img {
   width: 16rem;
 }
+
+.contact__form {
+  padding-bottom: var(--p-1);
+}
+
+.contact__form--conosco {
+  font-weight: 700;
+  line-height: 18.78px;
+  color: var(--black);
+}
+.contact__form--name,
+.contact__form--message {
+  width: 100%;
+}
+
+.contact__form--name {
+  margin-bottom: var(--mb-1);
+  margin-top: var(--mt-0-5);
+}
+
+.contact__form--name,
+.contact__form--message {
+  font-size: var(--fs-1);
+  color: var(--black);
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 0 var(--black-30);
+  padding: 1rem 0.75rem;
+}
+.contact__form--message {
+  height: 5.40rem;
+  margin-bottom: var(--mb-1);
+  resize: none;
+}
