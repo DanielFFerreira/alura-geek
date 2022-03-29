@@ -1,3 +1,13 @@
+@media screen and (max-width: 767px) {
+  .header__search {
+    display: flex;
+    align-items: center;
+  }
+  .header--input {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
 
   .container {
@@ -8,10 +18,30 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .header {
+  .header__search {
+    position: absolute;
     display: flex;
-    align-content: center;
+    align-items: center;
+    left: 6rem;
   }
+  .header--input {
+    width: 32vw;
+    background-color: var(--black-5);
+    padding: 0.75rem 1rem;
+    box-shadow: none;
+    border-radius: 1.25rem;
+  }
+  .header--img {
+    left: 20rem;
+    position: relative;
+  }
+
+  .banner__title {
+    font-size: 3.25rem;
+    line-height: 3.8125rem;
+    padding-bottom: 1rem;
+  }
+
 }
 
 @media screen and (min-width: 1240px) {
