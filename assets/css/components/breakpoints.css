@@ -41,6 +41,13 @@
     line-height: 3.8125rem;
     padding-bottom: 1rem;
   }
+  .contact {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .contact__form {
+    margin-left: 7rem;
+  }
 
 }
 
@@ -59,5 +66,15 @@
   .banner__content {
     position: absolute;
     bottom: 4rem !important;
+  }
+  .contact__links {
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    padding: 2rem 2rem;
+  }
+  .contact__links--logo {
+    margin-right: 5rem;
   }
 }
