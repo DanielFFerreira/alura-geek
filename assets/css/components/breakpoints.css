@@ -15,7 +15,7 @@
   }
 
   .grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .header__search {
@@ -44,8 +44,20 @@
 
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1270px) {
   .grid {
     grid-template-columns: repeat(6, 1fr);
+  }
+  .header--img {
+    left: 30rem;
+  }
+  .banner__title {
+    font-size: 4.25rem;
+    line-height: 3.8125rem;
+    padding-bottom: 1rem;
+  }
+  .banner__content {
+    position: absolute;
+    bottom: 4rem !important;
   }
 }
