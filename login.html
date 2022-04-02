@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+  name="description"
+  content="Página de e-commerce para uma loja online de produtos geek, que será desenvolvida como resultado do desafio para alunos da Alura."
+  />
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Colocando favicon -->
+  <link rel="shortcut icon" href="assets/image/icon-aluraGeek.png">
+
+  <!-- linking css file -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <title>Alura Geek</title>
+</head>
+<body>
+
+  <!-----------   HEADER   ---------->
+  <header class="header__bg">
+    <div class="header container">
+      <!-----------   LOGO   ---------->
+      <a href="#" class="header__logo">
+        <img class="header__logo--img" src="assets/image/logo.svg" alt="Logo da alura geek">
+      </a>
+
+      <!-----------   LOGIN   ---------->
+      <a href="login.html" type="btn" class="btn btn__login">
+        Login
+      </a>
+
+      <!-----------   SEARCH   ---------->
+      <div class="header__search">
+        <input type="text" class="header__search header--input" name="search" placeholder="O que deseja encontrar ?">
+        <img src="assets//image/icon-search.png" class="header--img" alt="Icone da lupa pesquisa">
+      </div>
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!----------- CONTACT ---------->
+    <section class="contact container">
+      <div class="contact__links">
+        <a href="#" class="contact__links--logo">
+          <img src="assets/image/logo.svg" alt="Logo Loja Alura Geek">
+        </a>
+        <div class="contact__content">
+          <ul class="contact__item">
+            <li class="contact__list">
+              <a href="#">Quem somos nós</a>
+            </li>
+            <li class="contact__list">
+              <a href="#">Política de privacidade</a>
+            </li>
+            <li class="contact__list">
+              <a href="#">Programa fidelidade</a>
+            </li>
+            <li class="contact__list">
+              <a href="#">Nossas lojas</a>
+            </li>
+            <li class="contact__list">
+              <a href="#">Quero ser franqueado</a>
+            </li>
+            <li class="contact__list">
+              <a href="#">Anuncie aqui</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <form action="#" class="contact__form">
+
+        <legend class="contact__form--conosco">Fale Conosco</legend>
+      
+        <input type="text" id="name" placeholder="Nome" class="contact__form--name">
+        
+        <textarea 
+          id="message" 
+          placeholder="Escreva sua mensagem"
+          class="contact__form--message"
+        ></textarea>
+          
+        <a class="btn btn__default" href="#">Enviar mensagem</a>
+
+      </form>
+    </section>
+
+  </main>
+
+  <!----------- FOOTER ---------->
+  <footer class="footer">
+    <a href="#" target="_blank" aria-labelledby="portfolio">
+      <i class="icon-logo"></i>
+    </a>
+    <p id="portfolio">
+      Desenvolvido por Daniel Freitas Ferreira
+    </p>
+    <p>2022</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
